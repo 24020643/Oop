@@ -3,6 +3,7 @@ package baitap4_11;
 public class Main {
     public static void main(String[] args) {
         ListSortable<KLTN<Student, Person>> listSortable = new ListSortable<>();
+        // list sinh vien va giang vien, nguoi ho tro
         Student s1 = new Student("A", "a@gmail.com", "24020001");
         Student s2 = new Student("B", "B@gmail.com", "24020002");
         Student s3 = new Student("C", "C2gmail.com", "24020003");
